@@ -118,7 +118,6 @@ p{
     transform: translateX(50%);
 }
 
-
 .offer{
     background: radial-gradient(#fff,#ffd6d6);
     margin-top: 80px;
@@ -126,4 +125,22 @@ p{
 }
 .row2 .offer-img{
     padding: 50px;
+}
+.middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    opacity: 0;
+}
+.btn-product {
+    background-color: #ff523b;
+    color:#fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+.row4:hover img{
+    opacity: 0.3;
+}
+.row4:hover .middle{
+    opacity: 1;
 }
